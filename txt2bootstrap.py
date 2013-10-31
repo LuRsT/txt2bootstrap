@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 from sys import argv
+from os import path, getcwd
 from webbrowser import open as browser_open
 
 
@@ -73,4 +74,5 @@ if __name__=='__main__':
         output_content = bootstrap_text(argv[1:])
         output_file.write(output_content.encode('utf-8'))
 
-    browser_open(output_filename, new=0, autoraise=True)
+    absolute_filename = path.join(getcwd(), output_filename)
+    browser_open('file://' + absolute_filename, new=0, autoraise=True)
