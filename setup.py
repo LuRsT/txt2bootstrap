@@ -8,5 +8,5 @@ setup(
     license='MIT',
     long_description=open('README.md').read(),
     scripts=['bin/txt2bootstrap'],
-    install_requires=[]
+    install_requires=[],
 )
