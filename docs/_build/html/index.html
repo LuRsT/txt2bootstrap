@@ -52,15 +52,15 @@ and opens the browser for you.</p>
 </div>
 <div class="section" id="instructions">
 <h2>Instructions<a class="headerlink" href="#instructions" title="Permalink to this headline">¶</a></h2>
-<p>Just get the script and put it on your bin folder or somewhere inside $PATH</p>
-<blockquote>
-<div>wget <a class="reference external" href="https://raw.github.com/LuRsT/txt2bootstrap/master/txt2bootstrap.py">https://raw.github.com/LuRsT/txt2bootstrap/master/txt2bootstrap.py</a>
-mv txt2bootstrap.py ~/bin</div></blockquote>
+<p>Just get the script and put it on your bin folder or somewhere inside $PATH:</p>
+<div class="highlight-python"><pre>wget https://raw.github.com/LuRsT/txt2bootstrap/master/txt2bootstrap.py
+mv txt2bootstrap.py ~/bin</pre>
+</div>
 <p>Threre&#8217;s no requirement, unless you want to view markdown or ReST files,
 which if you do, you&#8217;ll need to install each needed module:</p>
-<blockquote>
-<div>Markdown files -&gt; Markdown
-ReST files     -&gt; docutils</div></blockquote>
+<div class="highlight-python"><pre>Markdown files -&gt; Markdown
+ReST files     -&gt; docutils</pre>
+</div>
 <p>If you don&#8217;t have any of them, the script will fallback to simple text,
 printing it directly (if there&#8217;s any html, it will be shown prettier
 by your browser).</p>
@@ -69,11 +69,12 @@ $BROWSER to the browser that you want to be opened.</p>
 </div>
 <div class="section" id="how-to-use">
 <h2>How to use<a class="headerlink" href="#how-to-use" title="Permalink to this headline">¶</a></h2>
-<blockquote>
-<div># One file
-python txt2bootstrap.py file.md
-# Multiple files
-python txt2bootstrap.py file.md file.rst file.txt #...</div></blockquote>
+<p>One file:</p>
+<div class="highlight-python"><pre>txt2bootstrap file.md</pre>
+</div>
+<p>Multiple files:</p>
+<div class="highlight-python"><pre>txt2bootstrap file.md file.rst file.txt #...</pre>
+</div>
 </div>
 <div class="section" id="ways-to-use-it">
 <h2>Ways to use it<a class="headerlink" href="#ways-to-use-it" title="Permalink to this headline">¶</a></h2>
