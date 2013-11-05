@@ -45,19 +45,47 @@
             
   <div class="section" id="welcome-to-txt2bootstrap-s-documentation">
 <h1>Welcome to txt2bootstrap&#8217;s documentation!<a class="headerlink" href="#welcome-to-txt2bootstrap-s-documentation" title="Permalink to this headline">¶</a></h1>
-<p>Contents:</p>
-<div class="toctree-wrapper compound">
-<ul class="simple">
-</ul>
+<div class="section" id="description">
+<h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
+<p>Translates one or many  Text/Markdown/Rest/HTML to html with bootstrap
+and opens the browser for you.</p>
 </div>
+<div class="section" id="instructions">
+<h2>Instructions<a class="headerlink" href="#instructions" title="Permalink to this headline">¶</a></h2>
+<p>Just get the script and put it on your bin folder or somewhere inside $PATH</p>
+<blockquote>
+<div>wget <a class="reference external" href="https://raw.github.com/LuRsT/txt2bootstrap/master/txt2bootstrap.py">https://raw.github.com/LuRsT/txt2bootstrap/master/txt2bootstrap.py</a>
+mv txt2bootstrap.py ~/bin</div></blockquote>
+<p>Threre&#8217;s no requirement, unless you want to view markdown or ReST files,
+which if you do, you&#8217;ll need to install each needed module:</p>
+<blockquote>
+<div>Markdown files -&gt; Markdown
+ReST files     -&gt; docutils</div></blockquote>
+<p>If you don&#8217;t have any of them, the script will fallback to simple text,
+printing it directly (if there&#8217;s any html, it will be shown prettier
+by your browser).</p>
+<p>If you have a problem with the selected browser, change the env var
+$BROWSER to the browser that you want to be opened.</p>
 </div>
-<div class="section" id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
-<ul class="simple">
-<li><a class="reference internal" href="genindex.html"><em>Index</em></a></li>
-<li><a class="reference internal" href="py-modindex.html"><em>Module Index</em></a></li>
-<li><a class="reference internal" href="search.html"><em>Search Page</em></a></li>
-</ul>
+<div class="section" id="how-to-use">
+<h2>How to use<a class="headerlink" href="#how-to-use" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div># One file
+python txt2bootstrap.py file.md
+# Multiple files
+python txt2bootstrap.py file.md file.rst file.txt #...</div></blockquote>
+</div>
+<div class="section" id="ways-to-use-it">
+<h2>Ways to use it<a class="headerlink" href="#ways-to-use-it" title="Permalink to this headline">¶</a></h2>
+<p>Joe is a writter who likes markdown and is not afraid of the terminal, so he
+writes his markdown file and previews it using this script, to check if he
+still remembers how to bold a word.</p>
+<p>Rose is a front-end developer who wants a quick and dirty prototype, so she
+will write a simple html file not caring about the <cite>&lt;body&gt;</cite> or <cite>&lt;head&gt;</cite> tags or
+any of that gibberish and then view it using this script.</p>
+<p>Michael is a pro developer who stumbled upon this script and actually found a
+bug so fixed it and sent a pull request.</p>
+</div>
 </div>
 
 
@@ -69,9 +97,12 @@
   <h3><a href="#">Table Of Contents</a></h3>
   <ul>
 <li><a class="reference internal" href="#">Welcome to txt2bootstrap&#8217;s documentation!</a><ul>
+<li><a class="reference internal" href="#description">Description</a></li>
+<li><a class="reference internal" href="#instructions">Instructions</a></li>
+<li><a class="reference internal" href="#how-to-use">How to use</a></li>
+<li><a class="reference internal" href="#ways-to-use-it">Ways to use it</a></li>
 </ul>
 </li>
-<li><a class="reference internal" href="#indices-and-tables">Indices and tables</a></li>
 </ul>
 
   <h3>This Page</h3>

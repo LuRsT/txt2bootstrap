@@ -4,7 +4,8 @@ txt2bootstrap
 Translates one or many  Text/Markdown/Rest/HTML to html with bootstrap
 and opens the browser for you.
 
-## Instructions
+Instructions
+------------
 
 Just get the script and put it on your bin folder or somewhere inside $PATH
 
@@ -24,14 +25,16 @@ by your browser).
 If you have a problem with the selected browser, change the env var
 $BROWSER to the browser that you want to be opened.
 
-## How to use
+How to use
+----------
 
     # One file
     python txt2bootstrap.py file.md
     # Multiple files
     python txt2bootstrap.py file.md file.rst file.txt #...
 
-## Ways to use it
+Ways to use it
+--------------
 
 Joe is a writter who likes markdown and is not afraid of the terminal, so he
 writes his markdown file and previews it using this script, to check if he
