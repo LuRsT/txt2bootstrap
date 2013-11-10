@@ -10,11 +10,11 @@ and opens the browser for you.
 Instructions
 ------------
 
-Just get the script and put it on your bin folder or somewhere inside $PATH::
+Install it throught pip::
 
     pip install txt2bootstrap
 
-Or, for developers::
+Or, if you want to hack on this repo::
 
     git clone https://github.com/LuRsT/txt2bootstrap
     python setup.py install
