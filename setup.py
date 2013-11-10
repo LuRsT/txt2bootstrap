@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='txt2bootstrap',
-    version='1.0',
+    version='1.1',
     packages=[],
     license='MIT',
     long_description=open('README.rst').read(),
