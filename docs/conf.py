@@ -41,7 +41,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'txt2bootstrap'
-copyright = u'2013, Gil Goncalves'
+copyright = u'2014, Gil Goncalves'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
