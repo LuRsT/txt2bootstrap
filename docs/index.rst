@@ -12,15 +12,21 @@ Instructions
 
 Install it throught pip::
 
+.. code-block:: none
+
     pip install txt2bootstrap
 
 Or, if you want to hack on this repo::
+
+.. code-block:: none
 
     git clone https://github.com/LuRsT/txt2bootstrap
     python setup.py install
 
 Threre's no requirement, unless you want to view markdown or ReST files,
 which if you do, you'll need to install each needed module::
+
+.. code-block:: none
 
     Markdown files -> Markdown
     ReST files     -> docutils
@@ -37,9 +43,13 @@ How to use
 
 One file::
 
+.. code-block:: none
+
     txt2bootstrap file.md
 
 Multiple files::
+
+.. code-block:: none
 
     txt2bootstrap file.md file.rst file.txt #...
 
