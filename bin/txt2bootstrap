@@ -11,10 +11,10 @@
 # use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
 # the Software, and to permit persons to whom the Software is furnished to do so,
 # subject to the following conditions:
-# 
+#
 # The above copyright notice and this permission notice shall be included in all
 # copies or substantial portions of the Software.
-# 
+#
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 # IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
 # FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
@@ -91,10 +91,6 @@ if __name__=='__main__':
     if len(argv) < 2:
         raise TypeError('Needs at least one argument.')
 
-    output_filename = "{}.html".format(argv[1])
-    with open(output_filename, 'w') as output_file:
-        output_content = bootstrap_text(argv[1:])
-        output_file.write(output_content.encode('utf-8'))
-
-    absolute_filename = path.join(getcwd(), output_filename)
-    browser_open('file://' + absolute_filename, new=0, autoraise=True)
+    input_file = argv[1:]
+    output_content = bootstrap_text(input_file)
+    print output_content
