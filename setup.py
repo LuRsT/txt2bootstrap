@@ -6,7 +6,7 @@ setup(
     version='2.0',
     packages=[],
     license='MIT',
-    long_description=open('README.rst').read(),
+    long_description=open('README.md').read(),
     scripts=['bin/txt2bootstrap'],
     install_requires=[],
     author='Gil Goncalves',
